@@ -1,7 +1,7 @@
 ```sql
 create table eigandi
 (
-	kennitala char(10),
+    kennitala char(10),
     fornafn varchar(75),
     eftirnafn varchar(75),
     faedingardagur date,
