@@ -1,4 +1,4 @@
-#Skrá eiganda
+## Skrá eiganda
 ```sql
 create table eigandi
 (
@@ -16,7 +16,7 @@ insert into eigani values('5000', 'Hermann', 'Tang', 20031104, 'Herraking@exampl
                          ('9000', 'Mick', 'Gordon', 19980630, 'mickymouse@example.com');
 ```
 
-#Skrá bíla
+## Skrá bíla
 ```sql
 create table bilar
 (
