@@ -29,7 +29,7 @@ create table bilar
     orkugjafi char(7),
     kennitalaEiganda char(4),
     constraint bill_PK primary key(fastanumer),
-    constraint bill_eigandi_FK foreign key(kennitalaEiganda) references Eigandi(kennitala)
+    constraint bill_eigandi_FK foreign key(kennitalaEiganda) references eigandi(kennitala)
 );
 
 insert into bilar values('ABC28', 'Kia Sportage', '2007', 'Blár', true, 'rafmagn', '5000'),
