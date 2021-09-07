@@ -81,7 +81,7 @@ listID int auto_increment,
 listName varchar(75),
 dateCreated date,
 description char(75),
-primary key(listID)
+constraint list_PK primary key(listID)
 );
 
 insert into lists()
