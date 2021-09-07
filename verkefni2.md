@@ -98,6 +98,6 @@ userListID varchar(75),
 dateAdded date,
 listID int auto_increment,
 userID char(2),
-primary key(listID)
+constraint userLists_PK primary key(listID)
 );
 ```
