@@ -39,4 +39,4 @@ insert into bilar values('ABC28', 'Kia Sportage', '2007', 'Blár', true, 'rafmag
                         ('ISL88', 'VolksWagen E230', '1997', 'Grár', false, 'bensín', '6000'),
                         ('ZQL45', 'Volvo S80', '2004', 'Bleikur', true, 'metan', '8000');
 ```
-
+---
