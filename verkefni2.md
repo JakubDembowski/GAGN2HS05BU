@@ -1,4 +1,4 @@
-# Liður a
+# Liður A
 ## Skrá eiganda
 ```sql
 create table eigandi
@@ -50,10 +50,10 @@ heiti varchar(75),
 land varchar(75)
 );
 ---
+```
 # Liður C
 ## Users tafla
-```
-
+---
 ```sql
 
 create table Users
