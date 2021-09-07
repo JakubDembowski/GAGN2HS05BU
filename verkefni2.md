@@ -42,9 +42,17 @@ insert into bilar values('ABC28', 'Kia Sportage', '2007', 'Blár', true, 'rafmag
 ```
 ---
 # Liður B
+```sql
+create table Framleidandi
+(
+ID int auto_increment primary key,
+heiti varchar(75),
+land varchar(75)
+);
 ---
 # Liður C
 ## Users tafla
+```
 
 ```sql
 
