@@ -63,7 +63,7 @@ firstName char(75),
 lastName char(75),
 dob date,
 countryCode char(2),
-primary key(ID)
+constraint users_PK primary key(ID)
 );
 insert into users
 values('1','Barbara','Jones','19870724','35'),
