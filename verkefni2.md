@@ -41,3 +41,54 @@ insert into bilar values('ABC28', 'Kia Sportage', '2007', 'Blár', true, 'rafmag
                         ('ZQL45', 'Volvo S80', '2004', 'Bleikur', true, 'metan', '8000');
 ```
 ---
+# Liður B
+## Users tafla
+```sql
+---
+# Liður C
+
+create table Users
+(
+ID int auto_increment,
+firstName char(75),
+lastName char(75),
+dob date,
+countryCode char(2),
+primary key(ID)
+);
+insert into users
+values('1','Barbara','Jones','19870724','35'),
+	  ('2','James','Hortex','19990117','28'),
+      ('3','Maverick','Mambo','20000518','35'),
+      ('4','Helena','Juice','19990829','28'),
+      ('5','Harrowan','Polo','19680530','81');
+```
+
+## Lists tafla
+```sql
+create table Lists
+(
+listID int auto_increment,
+listName varchar(75),
+dateCreated date,
+description char(75),
+primary key(listID)
+);
+
+insert into lists()
+values('1','Listi 1','20090523','Þetta er listi 1'),
+	  ('2','List 2','20090621','Þetta er listi 2'),
+      ('3','Listi 3','20090511','Þetta er listi 3');
+```
+
+## UserLists tafla
+```sql
+create table UserLists
+(
+userListID varchar(75),
+dateAdded date,
+listID int auto_increment,
+userID char(2),
+primary key(listID)
+);
+```
