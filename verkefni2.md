@@ -49,8 +49,8 @@ ID int auto_increment primary key,
 heiti varchar(75),
 land varchar(75)
 );
----
 ```
+---
 # Liður C
 ## Users tafla
 ---
