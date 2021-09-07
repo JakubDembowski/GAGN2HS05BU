@@ -42,11 +42,11 @@ insert into bilar values('ABC28', 'Kia Sportage', '2007', 'Blár', true, 'rafmag
 ```
 ---
 # Liður B
+---
+# Liður C
 ## Users tafla
 
----
 ```sql
-# Liður C
 
 create table Users
 (
