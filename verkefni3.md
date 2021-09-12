@@ -21,15 +21,12 @@ order by onnAfanga;
 ```
 ---
 3:
-Notið like virkjann(operator) til að gera eftirfarandi:                                                                     ## Birtið alla áfanga sem innihalda '2GO' í áfanganúmerinu.
+Notið like virkjann(operator) til að gera eftirfarandi:                                                                     1. Birtið alla áfanga sem innihalda '2GO' í áfanganúmerinu.
 ```sql
 select afangaNumer from afangarbrauta
 where afangaNumer like '%2GO%';
 ```
-
-
-4:
-Birtið alla áfanga sem byrja á hvaða fjórum bókstöfum sem er en hafa fimmta og sjötta
+2. Birtið alla áfanga sem byrja á hvaða fjórum bókstöfum sem er en hafa fimmta og sjötta
 staf '2B'. Restin af númerinu má svo vera hvað sem er
 
 ```sql
