@@ -9,12 +9,12 @@ Veljið aðeins áfanganúmer og önn úr töflunni Afangaframbod. Raðið niðu
 a: í stafrófsröð eftir áfanganúmerum
 b: eftir önnum þannig að seinasta önnin komi fyrst('öfug röð')
 
-a:
+a: í stafrófsröð eftir áfanganúmerum
 ```sql
 select afangaNumer, onnAfanga from afangaframbod
 order by afangaNumer;
 ```
-b: 
+b: eftir önnum þannig að seinasta önnin komi fyrst('öfug röð')
 ```sql
 select afangaNumer, onnAfanga from afangaframbod
 order by onnAfanga;
