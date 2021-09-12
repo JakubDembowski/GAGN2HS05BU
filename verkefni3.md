@@ -5,11 +5,11 @@ b: eftir önnum þannig að seinasta önnin komi fyrst('öfug röð')
 
 a:
 ```sql
-select afangaNumer, onnAfanga from afangarbrauta
+select afangaNumer, onnAfanga from afangaframbod
 order by afangaNumer;
 ```
 b: 
 ```sql
-select afangaNumer, onnAfanga from afangarbrauta
+select afangaNumer, onnAfanga from afangaframbod
 order by onnAfanga;
 ```
