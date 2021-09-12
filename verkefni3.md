@@ -1,6 +1,8 @@
 1:
 Notið select skipun til að skila fjölda undirskóla Tækniskólans
-
+```sql
+select heiti from undirskolar
+```
 
 2:
 Veljið aðeins áfanganúmer og önn úr töflunni Afangaframbod. Raðið niðurstöðunum:
