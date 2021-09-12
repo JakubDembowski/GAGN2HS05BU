@@ -47,3 +47,11 @@ veljið allar upplýsingar um alla áfanga úr Afangatöflunni nema eftirfarandi
 select * from afangar
 WHERE afanganumer NOT LIKE '%DANS2BM05AT, ÍÞRÓ1GH02AT, MENL1AL05AT, STÆR4HT05FT% ';
 ```
+---
+7: 
+Hvað eru margir skylduáfangar áætlaðir á hverja önn á tölvubraut.
+Birtið bæði númer viðkomandi annar og fjölda skylduáfanga. Raðið niðurstöðunum eftir
+númeri annar.
+---
+# Liður 3c
+
