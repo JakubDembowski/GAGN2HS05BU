@@ -3,7 +3,7 @@ Notið select skipun til að skila fjölda undirskóla Tækniskólans
 ```sql
 select heiti from undirskolar
 ```
-
+---
 2:
 Veljið aðeins áfanganúmer og önn úr töflunni Afangaframbod. Raðið niðurstöðunum:
 a: í stafrófsröð eftir áfanganúmerum
@@ -19,3 +19,8 @@ b:
 select afangaNumer, onnAfanga from afangaframbod
 order by onnAfanga;
 ```
+---
+Notið like virkjann(operator) til að gera eftirfarandi:
+1. Birtið alla áfanga sem innihalda '2GO' í áfanganúmerinu.
+2. Birtið alla áfanga sem byrja á hvaða fjórum bókstöfum sem er en hafa fimmta og sjötta
+staf '2B'. Restin af númerinu má svo vera hvað sem er
