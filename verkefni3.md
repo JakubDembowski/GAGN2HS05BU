@@ -35,3 +35,15 @@ staf '2B'. Restin af númerinu má svo vera hvað sem er
 select afangaNumer from afangarbrauta
 where afangaNumer like '%____2B%';
 ```
+---
+4:
+Svarið eftirfarandi með SQL fyrirspurn:
+Eru einhver áfanganúmer sem byrja á bókstafnum F en heiti áfangans byrjar ekki á F?
+  * Nei... Eina áfanganúmer sem byrjar á F er Forritun og öll heiti byrja á F.
+---
+6:
+veljið allar upplýsingar um alla áfanga úr Afangatöflunni nema eftirfarandi(afangaNumer):
+```sql
+select * from afangar
+WHERE afanganumer NOT LIKE '%DANS2BM05AT, ÍÞRÓ1GH02AT, MENL1AL05AT, STÆR4HT05FT% ';
+```
