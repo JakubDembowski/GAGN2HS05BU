@@ -9,5 +9,7 @@ select afangaNumer, onnAfanga from afangarbrauta
 order by afangaNumer;
 ```
 b: 
+```sql
 select afangaNumer, onnAfanga from afangarbrauta
 order by onnAfanga;
+```
