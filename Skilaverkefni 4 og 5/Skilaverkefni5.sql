@@ -1,4 +1,7 @@
 -- 5.01:
+-- Skrifið function, FjoldiSkylduafanga sem skilar fjölda skylduáfanga á ákveðinni braut. Brautarnúmerið er
+-- gefið upp þegar fallið(function) er keyrt.
+
 delimiter €€
 drop function if exists FjoldiSkylduafanga €€
 
