@@ -17,7 +17,8 @@ delimiter ;
 
 select FjoldiSkylduafanga(7) as Fjöldi;
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- 5.02:
 -- Skrifið function, Meðaleinkunn sem reiknar meðaleinkunn úr áföngum sem ákv. nemandi hefur lokið.
 -- Gefa þarf upp númer nemandans(nemandi_id) þegar kalla er á fallið.
@@ -32,6 +33,7 @@ begin
 end $$
 delimiter ;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.03:
 -- Skrifið function, FjoldiUndanfara sem telur hve marga undanfara einhver ákveðinn áfangi hefur. Hafi
@@ -47,6 +49,7 @@ begin
 end $$
 delimiter ;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.04:
 -- Skrifið function, FjoldiBrautarAfanga sem skilar fjölda áfanga á ákveðinni braut.
@@ -61,6 +64,7 @@ begin
 end $$
 delimiter ;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.05:
 -- Skrifið function, EndurteknirAfangar sem skilar fjolda skipta sem ákveðinn nemandi hefur tekið
@@ -74,8 +78,7 @@ begin
 	-- Ykkar kóði hér.  Muna return! og muna að testa :-)
 end $$
 delimiter ;
-
--- Hér fyrir neðan eru svo SP sniðmátin:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.06:
 -- Skrifið stored procedure, NyBraut sem skráir nýja námsbraut í gagnagrunninn.
@@ -90,7 +93,7 @@ begin
 	-- Ykkar kóði hér. Muna að nota last_insert_id() sem síðustu línu í kóðanum.  Ekki gleyma testinu!
 end €€
 delimiter ;
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.07:
 -- Skrifið stored procedure, Afangaskraning sem skráir ákv. nemanda í ákv. áfanga. Byrjað er á að kanna
@@ -106,6 +109,7 @@ begin
 end €€
 delimiter ;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.08:
 -- Skrifið stored procedure, NemendaYfirlit sem birtir upplýsingar um nemendur og nám þeirra. Sýnið
@@ -120,6 +124,7 @@ begin
 end €€
 delimiter ;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- 5.09:
 /*
@@ -138,7 +143,9 @@ begin
 	-- ykkar kóði hérna.  Það má hugsanlega nota case when then til að útfæra þessa viðbót.
 end €€
 delimiter ;
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- 5.10:
 create view AfangaframbodUndirskola
 as
