@@ -32,7 +32,7 @@ drop function if exists Meðaleinkunn $$
 create function Meðaleinkunn(nemandi_id int)
 returns float deterministic
 begin
-	-- Ykkar kóði hér.  Muna return! og muna að testa :-)
+	select avg( Meðaleunkunn ) where nemandi_id = " "
 end $$
 delimiter ;
 
@@ -63,7 +63,7 @@ drop function if exists FjoldiBrautarAfanga $$
 create function FjoldiBrautarAfanga(brautar_numer int)
 returns int deterministic
 begin
-	-- Ykkar kóði hér.  Muna return! og muna að testa :-)
+	select * from FjoldiBrautarAfanga as brautar_numer
 end $$
 delimiter ;
 
@@ -88,6 +88,7 @@ delimiter ;
 -- ATH: Gefa þarf upp heiti nýju brautarinnar og hvaða skóla hún tilheyrir.Notið last_insert_id() til
 -- að fá brautarnúmerið sem auto_increment úthlutaði við að keyra þennan SP.
 -- Prófið með eftiþví að skrá námsbrautina 'Tölvuleikjaskólinn' á Upplýsingatækniskólann.
+
 delimiter €€
 drop procedure if exists NyBraut €€
 
@@ -123,7 +124,8 @@ drop procedure if exists NemendaYfirlit €€
 
 create procedure NemendaYfirlit()
 begin
-	-- ykkar kóði hér.
+	select nemendanumer, nafnNemenda, afangaNumer, afangaHeiti, einkunn, einingaFjoldi
+	from NemendaYfirlit
 end €€
 delimiter ;
 
